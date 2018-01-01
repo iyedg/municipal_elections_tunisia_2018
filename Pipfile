@@ -22,6 +22,8 @@ seaborn = "*"
 gspread = "*"
 fuzzywuzzy = "*"
 python-levenshtein = "*"
+master = {git = "git://github.com/mvds314/factor_rotation"}
+"autopep8" = "*"
 
 
 [requires]

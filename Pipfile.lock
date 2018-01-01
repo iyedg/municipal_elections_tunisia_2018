@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f9a0fe41ed6a5bd9e518d8a45550b40b0abef14919aef988ba76cddb1ff73692"
+            "sha256": "191ca41e25a292ade7d7808daf0c07cf9ba56af66263f1503773af95e71df490"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -31,10 +31,16 @@
     "default": {
         "attrs": {
             "hashes": [
-                "sha256:e7d51b70f19a4da5fe6b3c9938983e0af3b91e230edc504bd73c443d98037063",
-                "sha256:c78f53e32d7cf36d8597c8a2c7e3c0ad210f97b9509e152e4c37fa80869f823c"
+                "sha256:a17a9573a6f475c99b551c0e0a812707ddda1ec9653bed04c13841404ed6f450",
+                "sha256:1c7960ccfd6a005cd9f7ba884e6316b5e430a3f1a6c37c5f87d8b43f83b54ec9"
             ],
-            "version": "==17.3.0"
+            "version": "==17.4.0"
+        },
+        "autopep8": {
+            "hashes": [
+                "sha256:ff787bffb812818c3071784b5ce9a35f8c481a0de7ea0ce4f8b68b8788a12f30"
+            ],
+            "version": "==1.3.3"
         },
         "bleach": {
             "hashes": [
@@ -79,7 +85,10 @@
             "version": "==0.2.3"
         },
         "fuzzywuzzy": {
-            "hashes": [],
+            "hashes": [
+                "sha256:ecf490216fb4d76b558a03042ff8f45a8782f17326caca1384d834cbaa2c7e6f",
+                "sha256:d40c22d2744dff84885b30bbfc07fab7875f641d070374331777a4d1808b8d4e"
+            ],
             "version": "==0.16.0"
         },
         "gspread": {
@@ -89,7 +98,10 @@
             "version": "==0.6.2"
         },
         "html5lib": {
-            "hashes": [],
+            "hashes": [
+                "sha256:20b159aa3badc9d5ee8f5c647e5efd02ed2a66ab8d354930bd9ff139fc1dc0a3",
+                "sha256:66cb0dcfdbbc4f9c3ba1a63fdb511ffdbd4f513b2b6d81b80cd26ce6b3fb3736"
+            ],
             "version": "==1.0.1"
         },
         "httplib2": {
@@ -190,6 +202,9 @@
             ],
             "version": "==1.0"
         },
+        "master": {
+            "git": "git://github.com/mvds314/factor_rotation"
+        },
         "matplotlib": {
             "hashes": [
                 "sha256:83a56f713c8126492081ec6b9e885fafb387e966e5c79b88bcdb15e41ca8dd33",
@@ -221,7 +236,10 @@
             "version": "==0.8.3"
         },
         "nbconvert": {
-            "hashes": [],
+            "hashes": [
+                "sha256:260d390b989a647575b8ecae2cd06a9eaead10d396733d6e50185d5ebd08996e",
+                "sha256:12b1a4671d4463ab73af6e4cbcc965b62254e05d182cd54995dda0d0ef9e2db9"
+            ],
             "version": "==5.3.1"
         },
         "nbformat": {
@@ -336,7 +354,10 @@
             "version": "==1.0.15"
         },
         "ptyprocess": {
-            "hashes": [],
+            "hashes": [
+                "sha256:e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a",
+                "sha256:e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365"
+            ],
             "version": "==0.5.2"
         },
         "py": {
@@ -379,6 +400,13 @@
                 "sha256:af00ea8f2022b6287dc375b2c70f31ab5af83989fc6fe9eacd4976ce26cd7ccc"
             ],
             "version": "==0.2.1"
+        },
+        "pycodestyle": {
+            "hashes": [
+                "sha256:6c4245ade1edfad79c3446fadfc96b0de2759662dc29d07d80a6f27ad1ca6ba9",
+                "sha256:682256a5b318149ca0d2a9185d365d8864a768a28db66a84a2ea946bcc426766"
+            ],
+            "version": "==2.3.1"
         },
         "pygments": {
             "hashes": [
@@ -593,7 +621,10 @@
             "version": "==4.5.2"
         },
         "traitlets": {
-            "hashes": [],
+            "hashes": [
+                "sha256:c6cb5e6f57c5a9bdaa40fa71ce7b4af30298fbab9ece9815b5d995ab6217c7d9",
+                "sha256:9c4bd2d267b7153df9152698efb1050a5d84982d3384a37b2c1f7723ba3e7835"
+            ],
             "version": "==4.3.2"
         },
         "urllib3": {
